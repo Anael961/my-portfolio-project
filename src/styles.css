@@ -96,6 +96,7 @@ p {
 }
 
 .logo {
+  max-width: 150px;
   max-height: 45px;
 }
 nav {
@@ -116,9 +117,7 @@ nav a {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav li.active a {
-  color: var(--branding-color);
-}
+nav li.active a,
 nav a:hover {
   color: var(--branding-color);
 }
